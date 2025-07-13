@@ -1,0 +1,305 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f8ff;
+  color: #252432;
+}
+
+/*header start*/
+
+header {
+  background-image: linear-gradient(
+      rgba(78, 71, 255, 0.01),
+      rgba(78, 71, 255, 0.01)
+    ),
+    url("B12A01-landing-launchpad/Assets/Hero-bg.png");
+  width: 100%;
+  height: 698px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 50px 0 50px 0;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bolder;
+  color: #4e47ff;
+  text-align: left;
+}
+
+.banner-container {
+  max-width: 905px;
+  margin: 152px auto;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 65px;
+  margin-bottom: 37px;
+}
+
+/*header end*/
+
+/*main start*/
+
+/*action start*/
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 116px 0;
+}
+
+.left-action {
+  max-width: 517px;
+}
+
+.right-action {
+  width: 403px;
+  height: 328px;
+}
+
+.right-action img {
+  height: 100%;
+  width: 100%;
+  border-radius: 48px;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.action-sub-title {
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+/*productive users start*/
+.productive-user-container {
+  background-color: #e5e7ff;
+  border-radius: 24px;
+  padding: 50px 80px;
+  margin-bottom: 137px;
+}
+
+.productive-data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 158px;
+}
+
+.productive-item {
+  text-align: center;
+}
+
+.productive-title {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.productive-data {
+  font-size: 80px;
+  color: #4e47ff;
+}
+
+.productive-sub-title {
+  font-size: 20px;
+}
+
+/*user review*/
+.user-review-container {
+  margin: 137px 0;
+}
+
+.user-review-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.user-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review {
+  padding: 24px;
+  border-radius: 14px;
+  background-color: #ffffff80;
+  border: 1px solid #f2eded;
+}
+
+.star {
+  margin-bottom: 15px;
+}
+
+.review-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-details {
+  margin-bottom: 15px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+  margin-bottom: 3px;
+}
+
+.date {
+  font-size: 15px;
+}
+
+/*focus*/
+.focus-container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 71px 150px;
+  margin-bottom: 93px;
+}
+
+.focus-title {
+  font-size: 50px;
+}
+
+.focus-details {
+  margin: 20px 0;
+  color: #00000080;
+}
+
+.focus-image {
+  width: 840px;
+  height: 365px;
+  border-radius: 48px;
+  margin: 20px auto 0;
+}
+
+.focus-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 48px;
+  display: block;
+}
+
+/*get touch*/
+.get-touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 72px 0;
+}
+
+.get-touch-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+form {
+  width: 497px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 19px;
+  height: 55px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #d6dded;
+  font-size: 17px;
+}
+
+textarea {
+  height: 135px;
+  resize: none;
+}
+
+.get-touch-container button {
+  width: 100%;
+}
+
+/*footer*/
+footer {
+  background-color: #ffffff;
+  padding: 104px 0;
+}
+
+.footer-container {
+  width: 531px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.footer-sub-title {
+  color: #8987a1;
+  margin: 10px 0 20px;
+}
+
+.links-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.links-container ul li {
+  list-style: none;
+}
+
+.links-container ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.links-container ul li a:hover {
+  color: #4e47ff;
+}
